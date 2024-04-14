@@ -24,7 +24,7 @@ const PostItem: FC<PostItemPropsType> = ({ post }) => {
 
   return (
     <li className={classes.post}>
-      <Link href={`/${slug}`}>
+      <Link href={`/posts/${slug}`}>
         <div className={classes.image}>
           <Image
             src={imagePath}
